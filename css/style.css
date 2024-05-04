@@ -1028,6 +1028,7 @@ textarea.form-control {
   font-size: 1.25rem;
   line-height: inherit;
   white-space: nowrap;
+  color: #65C18C !important;
 }
 
 .navbar-brand:hover,
