@@ -17,7 +17,10 @@
   background-color: transparent;
   border: 2px solid #65C18C;
 }
-
+.imgback{
+  top: 60px;
+ 
+}
 .keyboard-box::before {
   content: 'MY';
   position: absolute;
@@ -90,6 +93,7 @@
 }
 
 .keyboard-img {
+  width: 80%;
   position: absolute;
   top: 52%;
   left: 50%;
@@ -4737,7 +4741,8 @@ h5,
 .owl-carousel.home-slider .slider-item .slider-text .one-third {
   width: 60%;
   position: relative;
-  z-index: -1;
+  z-index: 1;
+  
 }
 
 .owl-carousel.home-slider .slider-item .slider-text .one-third .overlay {
@@ -4748,6 +4753,7 @@ h5,
   right: 0;
   background: #000000;
   opacity: 0;
+ 
 }
 
 @media (max-width: 1199.98px) {
@@ -5433,13 +5439,13 @@ h5,
 
 .project {
   width: 100%;
-  height: 285px;
+  height: 300px;
   margin-bottom: 30px;
   position: relative;
   z-index: 0;
 }
 
-.project.img-2 {
+/* .project.img-2 {
   height: 600px;
 }
 
@@ -5477,7 +5483,7 @@ h5,
   .project.img-2 .text span {
     color: rgba(255, 255, 255, 0.8);
   }
-}
+} */
 
 .project .overlay {
   position: absolute;
@@ -5865,6 +5871,7 @@ border-color:  #fff;
 .img,
 .blog-img,
 .user-img {
+  
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
